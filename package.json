@@ -1,0 +1,27 @@
+{
+  "name": "todo-gether-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server": "^2.11.0",
+    "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "jest": "^25.2.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softwarewright/todo-gether-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/softwarewright/todo-gether-api/issues"
+  },
+  "homepage": "https://github.com/softwarewright/todo-gether-api#readme"
+}
