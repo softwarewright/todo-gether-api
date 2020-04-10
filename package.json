@@ -2,15 +2,24 @@
   "name": "todo-gether-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "apollo-server": "^2.11.0",
-    "graphql": "^15.0.0"
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "serverless-express": "^2.0.11",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
-    "jest": "^25.2.7"
+    "@types/aws-serverless-express": "^3.3.3",
+    "jest": "^25.2.7",
+    "ts-loader": "^6.2.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   },
   "scripts": {
+    "build": "webpack",
+    "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
