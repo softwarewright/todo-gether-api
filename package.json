@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "dependencies": {
-    "apollo-server": "^2.11.0",
+    "apollo-server": "^2.14.2",
     "express": "^4.17.1",
     "graphql": "^15.0.0",
     "serverless-express": "^2.0.11",
