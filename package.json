@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "dependencies": {
     "apollo-server": "^2.11.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "graphql": "^15.0.0",
     "serverless-express": "^2.0.11",
     "typescript": "^3.8.3"
